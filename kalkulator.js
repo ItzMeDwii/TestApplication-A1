@@ -27,16 +27,16 @@ function kalkulator(input) {
                     output = operand[0] * 1 + operand[1] * 1;
                     break;
                 case '-':
-                    result = operand[0] - operand[1];
+                    output = operand[0] - operand[1];
                     break;
                 case '*':
-                    result = operand[0] * operand[1];
+                    output = operand[0] * operand[1];
                     break;
                 case '/':
-                    result = operand[0] / operand[1];
+                    output = operand[0] / operand[1];
                     break;
                 default:
-                    result = '';
+                    output = '';
             }
         }
     }
